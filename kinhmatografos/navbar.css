@@ -1,0 +1,138 @@
+body{
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image:url(old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.avif);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.nav{
+    width: 100%;
+    height: 120px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+}
+ul li{
+    float: left;
+    margin-top: 20px;
+}
+ul li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 150px;
+    color: rgb(215, 230, 195);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+a:hover{
+    background-color:rgb(97, 97, 97) ;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+ul li ul li{
+    float: none;
+}
+ul li ul{
+    display: none;
+}
+ul li:hover ul{
+    display: block;
+    
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+position: fixed;
+    z-index: 1;
+    left: 0;
+    overflow-x:hidden;
+    transition: 0.8s;
+    padding-top: 60px;
+    text-align:center;
+    background-color: rgb(20, 20, 20);
+    opacity: 0.5;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  
+  }
+  
+  .sidenav a:hover{
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .film{padding: 25px;}
+  }
+
+
+
+
+  .header{
+   
+    display: inline-block;
+   width: 109;
+   color:rgb(96, 188, 216)
+
+  }/*
+ .film{
+   width: 50px;
+margin-top: 2px;
+
+ }
+.movie .header {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+*/
+.film {
+  
+    width: 30px;
+    height: 40px;
+    padding-left:10px ;
+  
+}
+
+.movie{
+text-align: center;
+
+
+}
+.eikonalogo{
+  width: 50px;
+
+}
+.sign{
+ position: absolute;
+ top:5px;
+ right:0px;
+}

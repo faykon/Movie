@@ -1,0 +1,24 @@
+body{
+  color: aliceblue;
+  background-image: 
+  linear-gradient(
+      to top right, #3e03c9, #3b001e
+  );
+min-height: 100vh;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: monospace;
+
+}
+.left-align{
+    text-align: left;
+}
+h2 a {
+  color:azure;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}

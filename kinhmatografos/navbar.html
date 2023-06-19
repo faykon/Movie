@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Movies</title>
+    
+</head>
+<body>
+
+        <div class="movie">
+       
+            <h1 class="header">Movie it </h1>
+          <img src="379-3792072_film-television-tvc-movies-icon-white-png-removebg-preview.png" class="film">
+           
+
+  
+    </div>
+    <div class="sign">
+        <img src="./signlogo.png" alt="logosignup" class="eikonalogo">
+    </div>
+
+
+      
+      
+  
+<nav>
+    <!--nav menu container-->
+    <div class="nav">
+        <!--nav list menu-->
+   <ul> 
+        <li><a href="#">My favourites</a></li>
+      
+        <li><a href="#" onclick="openNav()">Categories</a>
+            <!--nav list meny for categories-->
+
+</li>
+    </ul>
+<!--Nav bar for categories-->
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn"  onclick="closeNav()">&times;</a>
+        <ul>
+            <li><a href="#">Actions</a></li>
+            <li><a href="#">Comedies</a></li>
+            <li><a href="#">Dramas</a></li>
+            <li><a href="#">Documentaries</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Romantic</a></li>
+            <li><a href="#">Thrillers</a></li>
+        </ul>
+    </div>
+    <!--Nav js -->
+    <script>
+        
+        function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+    </script>
+ 
+</nav>  
+
+
+
+
+
+
+ 
+ <div class="slider">
+    <div class="item">
+        <h1>Scream IV</h1>
+        <a href="screamiv.html" target="_blank">
+            <img src="scream-6-poster-small.jpg" alt="Movie" width="200" height="250">
+        </a>
+        
+    </div>
+    <div class="item">
+        <h1>65</h1>
+        <a href="65.html" target="_blank">
+            <img src="image.jpg" alt="Movie" width="200" height="250">
+        </a>
+        
+    </div>
+    <div class="item">
+        <h1>Guardians of the Galaxy 3</h1>
+        <a href="guradian.html" target="_blank">
+            <img src="disney-movies-2023-guardians-of-the-galaxy-1673546742.jpeg" alt="Movie" width="200" height="230">
+        </a>
+       
+    </div>
+    <div class="item">
+        <h1>John Wick 4</h1>
+        <a href="johnwick4.html" target="_blank"><img src="ImageGen.jpg"  alt="Movie" width="200" height="250"></a>
+    </div>
+    <div class="item">
+        
+        <h1>Dungeons and Dragons</h1>
+        
+        <a href="dungeons.html" target="_blank">
+            <img src="new-family-movies-dungeons-and-dragons.png" alt="Movie" width="200" height="230"> 
+        </a>
+    </div>
+    <div class="item">
+        <h1>Winnie the Pooh</h1>
+        <a href="winnie.html" target="_blank">
+            <img src="2023-horror-movies-winnie-the-pooh-1672365534.jpg" alt="Movie" width="200" height="230">
+        </a>
+       
+    </div>
+    <div class="item">
+        <h1>M3GAN</h1>
+        <a href="megan.html" target="_blank">
+            <img src="best-new-horror-movies-m3gan-1670003739.jpg" alt="Movie" width="200" height="250">
+        </a>
+      
+    </div>
+    <button id="next">></button>
+    <button id="prev"><</button>
+</div>
+
+<script src="app.js"></script>
+
+
+
+
+
+</body>
+</html>
